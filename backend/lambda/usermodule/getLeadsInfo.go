@@ -45,6 +45,7 @@ func getLeadsInfo(ctx context.Context, request events.APIGatewayProxyRequest) (e
 	var input Input
 	err := json.Unmarshal([]byte(request.Body), &input)
 	db, err := sql.Open("postgres", psqlInfo)
+
 	if err != nil {
 		log.Println(err)
 		return events.APIGatewayProxyResponse{500, headers, nil, err.Error(), false}, nil
