@@ -100,7 +100,7 @@ jobs:
            fi
 
           else
-            echo "Invalid file"
+            echo "Invalid files"
           fi
 
        done
