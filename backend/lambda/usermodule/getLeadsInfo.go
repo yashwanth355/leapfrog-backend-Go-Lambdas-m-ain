@@ -31,6 +31,8 @@ type Leads struct {
 	Status            string `json:"masterstatus"`
 }
 
+
+
 type Input struct {
 	Filter string `json:"filter"`
 }
