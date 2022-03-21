@@ -12,7 +12,6 @@ import (
 )
 
 
-
 const (
 	host     = "ccl-psql-dev.cclxlbtddgmn.ap-south-1.rds.amazonaws.com"
 	port     = 5432
@@ -20,6 +19,8 @@ const (
 	password = "Kasvibesc!!09"
 	dbname   = "cclqadb"
 )
+
+
 
 type Leads struct {
 	Leadid            string `json:"leadid"`
