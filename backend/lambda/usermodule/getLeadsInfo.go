@@ -55,6 +55,8 @@ func getLeadsInfo(ctx context.Context, request events.APIGatewayProxyRequest) (e
 	}
 	defer db.Close()
 
+	
+	
 	// check db
 	err = db.Ping()
 
