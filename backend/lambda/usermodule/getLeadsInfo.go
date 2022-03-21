@@ -11,7 +11,7 @@ import (
 	_ "github.com/lib/pq"
 )
 
-############################################################
+
 
 const (
 	host     = "ccl-psql-dev.cclxlbtddgmn.ap-south-1.rds.amazonaws.com"
