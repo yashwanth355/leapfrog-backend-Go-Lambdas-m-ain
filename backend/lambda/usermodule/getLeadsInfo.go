@@ -94,6 +94,8 @@ func getLeadsInfo(ctx context.Context, request events.APIGatewayProxyRequest) (e
 	return events.APIGatewayProxyResponse{200, headers, nil, string(res), false}, nil
 }
 
+
+
 func main() {
 	lambda.Start(getLeadsInfo)
 }
