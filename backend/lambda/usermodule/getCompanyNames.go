@@ -1,7 +1,5 @@
 package main
 
-
-
 import (
 	"context"
 	"database/sql"
@@ -19,7 +17,7 @@ const (
 	port     = 5432
 	user     = "postgres"
 	password = "Ccl_RDS_DB#2022"
-	dbname   = "ccldevdb"
+	dbname   = "cclqadb"
 )
 
 type companyNames struct {
