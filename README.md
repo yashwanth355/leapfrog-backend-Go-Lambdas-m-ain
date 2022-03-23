@@ -240,9 +240,6 @@ go: creating new go.mod: module example/hello
 The go run command is one of many go commands you'll use to get things done with Go. Use the following command to get a list of the others:
              $ go help
 
-7. leapfrog-go-lambda
- backend-lambda-qa
- 
 
 
 
